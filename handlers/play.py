@@ -436,7 +436,7 @@ async def play(_, message: Message):
                               #print(e)
                               await lel.edit(
                                   f"<b>🔴 Flood Wait Error 🔴 \nUser {user.first_name} couldn't join your group due to heavy requests for userbot! Make sure user is not banned in group."
-                                  "\n\nOr manually add @Awesome_Cutiepii to your Group and try again</b>",
+                                  "\n\nOr manually add @AndreaMusicAssistant to your Group and try again</b>",
                               )
                               pass
     try:
@@ -533,7 +533,7 @@ async def play(_, message: Message):
         await message.reply_photo(
         photo="final.png",
         reply_markup=keyboard,
-        caption="▶️ **Playing** here the song requested by {} via @Cutiepii_Robot 💜".format(
+        caption="▶️ **Playing** here the song requested by {} via @AndreaVcRobot 🌟".format(
         message.from_user.mention()
         ),
     )
@@ -584,7 +584,7 @@ async def deezer(client: Client, message_: Message):
                               #print(e)
                               await lel.edit(
                                   f"<b>🔴 Flood Wait Error 🔴 \nUser {user.first_name} couldn't join your group due to heavy requests for userbot! Make sure user is not banned in group."
-                                  "\n\nOr manually add @Awesome_Cutiepii to your Group and try again</b>",
+                                  "\n\nOr manually add @AndreaMusicAssistant to your Group and try again</b>",
                               )
                               pass
     try:
@@ -714,7 +714,7 @@ async def jiosaavn(client: Client, message_: Message):
                               #print(e)
                               await lel.edit(
                                   f"<b>🔴 Flood Wait Error 🔴 \nUser {user.first_name} couldn't join your group due to heavy requests for userbot! Make sure user is not banned in group."
-                                  "\n\nOr manually add @Awesome_Cutiepii to your Group and try again</b>",
+                                  "\n\nOr manually add @AndreaMusicAssistant to your Group and try again</b>",
                               )
                               pass
     try:
